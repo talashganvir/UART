@@ -19,14 +19,5 @@ void Init_UART(void)
 
 void UART_enableTransmit(unsigned char status)
 {
-    if (status == 1)
-    {
-        UART_RE = 1;
-        UART_DE = 1;
-    }
-    else
-    {
-        UART_RE = 0;
-        UART_DE = 0;
-    }
+   
 }
